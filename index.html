@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS JS Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="name">
+        Made by <span> Shahrukh Saifi</span>
+    </div>
+    <div class="container">
+        <div class="left">
+            <label><i class="fa-brands fa-html5" style="color: red;"></i> HTML</label>
+            <textarea id="html-code" ></textarea>
+
+            <label><i class="fa-brands fa-css3-alt" style="color: blue;"></i> CSS</label>
+            <textarea id="css-code" ></textarea>
+
+            <label><i class="fa-brands fa-js" style="color: yellow;"></i> JS</label>
+            <textarea id="js-code" ></textarea>
+
+
+        </div>
+        <div class="right">
+            <label  onclick="fun()"><i class="fa-solid fa-play" style="color: blueviolet;"></i> Run</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
